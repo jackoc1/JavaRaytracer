@@ -1,0 +1,24 @@
+0    0    0
+0    0   -1
+0    1    0
+45  400 300
+
+AMBIENT_LIGHT: 0     0   0    0.1  0.1  0.1   1  0  0
+
+LIGHT: 10  100  10    1.0  1.0  1.0   1  0  0
+LIGHT: 100 100 100    1.0  1.0  1.0   1  0  0
+
+PIGMENT: solid        1  0  0
+PIGMENT: solid        0  1  0
+PIGMENT: solid        0  0  1
+PIGMENT: solid       .6 .2 .4
+
+FINISH: 0.4  0.6  0.0    1  0  0  0
+FINISH: 0.4  0.6  0.7  500  0  0  0
+FINISH: 0.3  0.5  0.6  200  0  0  0
+
+SHAPE: 0 1 sphere  -2   2  -13     2
+SHAPE: 1 0 sphere  -2  -1  -14     4
+SHAPE: 2 1 sphere   2   2  -10     2
+SHAPE: 2 1 sphere   2   0   -8     2
+SHAPE: 3 0 sphere   0   0    0  1000
